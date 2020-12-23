@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\SuitcaseTests\\SuitcaseTests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\SuitcaseTests\\SuitcaseTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\SuitcaseTests\\SuitcaseTests.csproj",
+        "projectName": "SuitcaseTests",
+        "projectPath": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\SuitcaseTests\\SuitcaseTests.csproj",
+        "packagesPath": "C:\\Users\\SnizhokMA\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\SuitcaseTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SnizhokMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\Suitcase.csproj": {
+                "projectPath": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\Suitcase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.0.0-alpha0001, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\Suitcase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\Suitcase.csproj",
+        "projectName": "Suitcase",
+        "projectPath": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\Suitcase.csproj",
+        "packagesPath": "C:\\Users\\SnizhokMA\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SnizhokMA\\source\\repos\\Suitcase\\Suitcase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SnizhokMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\bin\Debug\netcoreapp3.1\Suitcase.deps.json
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\bin\Debug\netcoreapp3.1\Suitcase.dll
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\bin\Debug\netcoreapp3.1\Suitcase.pdb
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.csprojAssemblyReference.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.AssemblyInfoInputs.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.AssemblyInfo.cs
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.csproj.CoreCompileInputs.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.dll
+C:\Users\SnizhokMA\Source\Repos\Suitcase\Suitcase\obj\Debug\netcoreapp3.1\Suitcase.pdb

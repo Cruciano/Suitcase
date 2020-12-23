@@ -2,8 +2,8 @@ namespace Suitcase.Interfaces
 {
     public interface IRandomFactory
     {
-        public IRandomFactory Handler { get; set; }
+        public IRandomFactory Factory { get; set; }
 
-        public IComponent HandleRequest(int random, IComponent parent);
+        public IComponent Create(int random, IComponent parent);
     }
 }

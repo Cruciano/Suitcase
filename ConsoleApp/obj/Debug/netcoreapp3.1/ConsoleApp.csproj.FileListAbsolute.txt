@@ -1,0 +1,16 @@
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\Suitcase.dll
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\bin\Debug\netcoreapp3.1\Suitcase.pdb
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyComplete
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\SnizhokMA\Source\Repos\Suitcase\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

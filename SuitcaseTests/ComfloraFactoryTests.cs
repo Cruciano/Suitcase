@@ -22,13 +22,13 @@ namespace SuitcaseTests
             _nextFactoryMock = new Mock<IRandomFactory>();
             _pocketMock = new Mock<IComponent>();
 
-            _comufloraFactory.Handler = _nextFactoryMock.Object;
+            _comufloraFactory.Factory = _nextFactoryMock.Object;
         }
 
         [Test]
         public void HandleRequest_IfNumberIsCorrect_ReturnsComuflora()
         {
-            _comufloraFactory.HandleRequest(50, _pocketMock.Object)
+            _comufloraFactory.Create(50, _pocketMock.Object)
                 .Should().BeEquivalentTo(new Animal("Random comuflora", 20, AnimalType.Comuflora, _pocketMock.Object));
         }
     }

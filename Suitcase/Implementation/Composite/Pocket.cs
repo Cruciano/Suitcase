@@ -61,30 +61,13 @@ namespace Suitcase.Implementation.Composite
 
         public IComponent Add(IComponent component)
         {
-            switch (AnimalType)
+            if((AnimalType == AnimalType.AnyType) || (AnimalType == component.AnimalType))
             {
-                case AnimalType.AnyType:
-                    _components.Add(component);
-                    return component;
-                
-                case AnimalType.Lichurka:
-                    if (AnimalType != AnimalType.Lichurka) return null;
-                    _components.Add(component);
-                    return component;
-                
-                case AnimalType.Comuflora:
-                    if (AnimalType != AnimalType.Comuflora) return null;
-                    _components.Add(component);
-                    return component;
-
-                case AnimalType.Occam:
-                    if (AnimalType != AnimalType.Occam) return null;
-                    _components.Add(component);
-                    return component;
-                
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(AnimalType), "This animal type is unknown!");
+                _components.Add(component);
+                return component;
             }
+
+            throw new ArgumentOutOfRangeException(nameof(AnimalType), "This animal type is unknown!");
         }
     }
 }

@@ -11,15 +11,15 @@ namespace Suitcase.Implementation.Composite
             AnimalType = animalType;
             Parent = parent;
         }
-        
+
         public string Name { get; }
-        
+
         public IComponent Parent { get; }
 
         public int FoodRequired { get; }
-        
+
         public AnimalType AnimalType { get; }
-        
+
         public string Scream(string animalName)
         {
             return $"{animalName} screams! \n";

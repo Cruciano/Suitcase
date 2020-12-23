@@ -21,13 +21,16 @@ namespace ConsoleApp
             IRandomFactory occamFactory = new OccamFactory();
             IRandomFactory lichurkaFactory = new LichurkaFactory();
 
-            comufloraFactory.Handler = occamFactory;
-            occamFactory.Handler = lichurkaFactory;
-            
-            var random = new Random().Next(100);
-            var randomAnimal = comufloraFactory.HandleRequest(random, suitcase);
-            
-            suitcase.Add(randomAnimal);
+            comufloraFactory.Factory = occamFactory;
+            occamFactory.Factory = lichurkaFactory;
+
+            for (int i = 0; i < 10;  i++) 
+            {
+                var random = new Random().Next(100);
+                var randomAnimal = comufloraFactory.Create(random, suitcase);
+
+                suitcase.Add(randomAnimal);
+            }
 
             Console.WriteLine(suitcase.Scream(null));
         }

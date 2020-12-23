@@ -5,16 +5,16 @@ namespace Suitcase.Implementation.ChainOfResponsibility
 {
     public class LichurkaFactory : IRandomFactory
     {
-        public IRandomFactory Handler { get; set; }
+        public IRandomFactory Factory { get; set; }
         
-        public IComponent HandleRequest(int random, IComponent parent)
+        public IComponent Create(int random, IComponent parent)
         {
             if (random < 40)
             {
                 return new Animal("Random lichurka", 10, AnimalType.Lichurka, parent);
             }
 
-            return Handler?.HandleRequest(random, parent);
+            return Factory?.Create(random, parent);
         }
     }
 }
